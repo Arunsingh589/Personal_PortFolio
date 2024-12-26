@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #000;
+  color: white;
+  overscroll-behavior: none;
+}
+
+.bg-img {
+  background-image: url("../public/bg-img5.png");
+}
+
+.items:hover {
+  box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
+  background-color: rgb(40, 47, 97);
+}
+
+/* .img img {
+    height: 370px;
+    width: 370px;
+    border-radius: 100%;
+    border: 5px solid yellow;
+    animation: ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes ani {
+    0% {
+        border-color: blue;
+        transform: translate(0, 0px);
+        box-shadow: 10px 10px 100px 50px blue;
+    }
+
+    25% {
+        border-color: rgb(239, 244, 11);
+        box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+    }
+
+    50% {
+        border-color: rgb(12, 12, 199);
+        transform: translate(0, 10px);
+        box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
+    }
+
+    75% {
+        border-color: rgb(130, 217, 160);
+        box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+
+    }
+
+    100% {
+        border-color: rgb(50, 55, 205);
+        transform: translate(0, -0px);
+        box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+
+    }
+} */

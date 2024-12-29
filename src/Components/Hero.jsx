@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { HERO } from './Data'
-import arunImg from '../../public/arun.jpg'
+import arunImg from '../../public/assets/arun.jpg'
 import Typed from 'typed.js';
 import { motion } from 'framer-motion';
 

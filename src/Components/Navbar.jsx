@@ -2,7 +2,7 @@ import { useState } from "react"
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
 import { NAVIGATION_LINKS } from "./Data";
-import logo from '../../public/logo4.png'
+import logo from '../../public/assets/logo4.png'
 
 // NAVIGATION_LINKS
 
